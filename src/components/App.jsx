@@ -11,10 +11,12 @@ import MainEvents from './MainEvents';
 import InteriorPhotos from './InteriorPhotos';
 import Footer from './Footer';
 import YandexMap from './YandexMap';
+import ErrorBoundary from './ErrorBoundary';
+import { ToastContainer } from 'react-toastify';
 
 const App = () => {
   return (
-    <>
+    <ErrorBoundary>
       <Header />
       <MainBlock />
       <MainBlockSecond />
@@ -27,7 +29,8 @@ const App = () => {
       <ContactForm />
       <YandexMap />
       <Footer />
-    </>
+      <ToastContainer />
+    </ErrorBoundary>
   );
 };
 
