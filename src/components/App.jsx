@@ -1,16 +1,31 @@
-import React from 'react';
 import '../assets/css/main.css';
-import Header from '../components/Header';
-import MainBlock from '../components/MainBlock';
-import ContactForm from '../components/ContactForm';
-import Footer from '../components/Footer';
+import Header from './Header';
+import MainBlock from './MainBlock';
+import ContactForm from './ContactForm';
+import MainBlockSecond from './MainBlockSecond';
+import MainBlockThird from './MainBlockThird';
+import SchedulePhone from './SchedulePhone';
+import MainBlockFourth from './MainBlockFourth';
+import Menu from './Menu';
+import MainEvents from './MainEvents';
+import InteriorPhotos from './InteriorPhotos';
+import Footer from './Footer';
+import YandexMap from './YandexMap';
 
 const App = () => {
   return (
     <>
       <Header />
       <MainBlock />
+      <MainBlockSecond />
+      <MainBlockThird />
+      <SchedulePhone />
+      <MainBlockFourth />
+      <Menu />
+      <MainEvents />
+      <InteriorPhotos />
       <ContactForm />
+      <YandexMap />
       <Footer />
     </>
   );
