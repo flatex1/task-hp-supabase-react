@@ -1,6 +1,8 @@
 # task-hp-supabase-react
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9717a6d6-66fa-465f-80b0-d31aed5503cf/deploy-status)](https://app.netlify.com/sites/hungerpeople/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9717a6d6-66fa-465f-80b0-d31aed5503cf/deploy-status)](https://app.netlify.com/sites/hungerpeople/deploys) 
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ## Overview
 
