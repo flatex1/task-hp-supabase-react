@@ -1,30 +1,117 @@
-# React + TypeScript + Vite
+# task-hp-supabase-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9717a6d6-66fa-465f-80b0-d31aed5503cf/deploy-status)](https://app.netlify.com/sites/hungerpeople/deploys)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains a React application integrated with Supabase. The project aims to provide a user-friendly interface for managing data through Supabase's backend services. The application is deployed and continuously integrated using Netlify.
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Configuration](#configuration)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **User Authentication**: Secure user authentication using Supabase.
+- **Data Management**: CRUD operations for managing data through Supabase.
+- **Responsive Design**: Mobile-friendly user interface.
+- **Continuous Deployment**: Automatic deployment using Netlify.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have the following:
+
+- Node.js and npm installed.
+- A Supabase account and project set up.
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/flatex1/task-hp-supabase-react.git
+    cd task-hp-supabase-react
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+1. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+2. Open your browser and navigate to `http://localhost:3000` to view the application.
+
+## Configuration
+
+1. Create a `.env` file in the root directory of your project and add your Supabase credentials:
+
+    ```env
+    REACT_APP_SUPABASE_URL=your-supabase-url
+    REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
+    ```
+
+2. Replace `your-supabase-url` and `your-supabase-anon-key` with your actual Supabase project URL and anonymous key.
+
+## Deployment
+
+The project is set up for continuous deployment with Netlify. To deploy the application:
+
+1. Connect your GitHub repository to Netlify.
+2. Configure the build settings:
+
+    - Build command: `npm run build`
+    - Publish directory: `build`
+
+3. Your application will be automatically deployed on each push to the main branch.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Add your commit message"
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+For any questions or support, please open an issue in this repository. Thank you for using and contributing to this project!
