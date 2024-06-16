@@ -18,7 +18,7 @@ const Menu = () => {
             <div className="name-price">pizza quatro stagioni . . . . 55,68 usd</div>
             <div className="dish-contents">Integer ullamcorper neque eu purus euismod</div>
           </div>
-          {/* Повторите элемент для других блюд */}
+          {/* TODO: Реализовать логику добавления меню из БД */}
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const MainBlock = () => {
           <p className="main-block-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
         </div>
         <div className="main-block-border-element-right">
-          <img className="main-block-img" src="src/assets/img/main/about.png" alt="About Us" width="575" height="575" />
+          <img className="main-block-img" src="https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/about.png" alt="About Us" width="575" height="575" />
         </div>
       </div>
     </div>

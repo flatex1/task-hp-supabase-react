@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Modal from 'react-modal';
 import supabase, { signUpUser, signInUser, signOutUser } from '../services/supabaseClient';
 import { toast } from 'react-toastify';
@@ -94,16 +95,16 @@ const Header = () => {
       <div className="container">
         <div className="nav">
           <div className="nav-first">
-            <a href="#">home</a>
-            <a href="#">about</a>
-            <a href="#">team</a>
-            <a href="#">booking</a>
+            <Link to="/">home</Link>
+            <Link to="#">about</Link>
+            <Link to="#">team</Link>
+            <Link to="#">booking</Link>
           </div>
-          <img className="header-logo" src="src/assets/img/header/header-logo.png" alt="logo" width="150" height="150" />
+          <img className="header-logo" src="https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/header-logo.png" alt="logo" width="150" height="150" />
           <div className="nav-second">
-            <a href="#">menu</a>
-            <a href="#">events</a>
-            <a href="#">contact</a>
+            <Link to="#">menu</Link>
+            <Link to="#">events</Link>
+            <Link to="/dashboard">Dashboard</Link>
             {session ? (
               <a href="#" id="logout-link" onClick={handleSignOut}>Logout</a>
             ) : (

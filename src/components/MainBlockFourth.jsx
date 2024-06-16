@@ -7,17 +7,17 @@ const pancakeData = [
   {
     title: 'Vanilla Pancakes',
     description: 'Delicious vanilla flavored pancakes served with fresh berries and a drizzle of maple syrup.',
-    imgSrc: 'src/assets/img/main/specialty.png',
+    imgSrc: 'https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/specialty.png',
   },
   {
     title: 'Chocolate Pancakes',
     description: 'Rich chocolate pancakes topped with whipped cream and chocolate shavings.',
-    imgSrc: 'src/assets/img/main/specialty.png',
+    imgSrc: 'https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/specialty.png',
   },
   {
     title: 'Hazelnut Pancakes',
     description: 'Pancakes infused with hazelnut flavor, served with a dollop of hazelnut spread.',
-    imgSrc: 'src/assets/img/main/specialty.png',
+    imgSrc: 'https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/specialty.png',
   },
 ];
 

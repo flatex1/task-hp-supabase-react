@@ -1,5 +1,3 @@
-// src/components/MainBlockThird.jsx
-
 import React, { useState } from 'react';
 import { insertBooking } from '../services/supabaseClient';
 import { ToastContainer, toast } from 'react-toastify';
@@ -64,7 +62,7 @@ const MainBlockThird = () => {
           <ToastContainer />
         </div>
         <div className="main-block-border-element-right">
-          <img className="main-block-img" src="src/assets/img/main/book.png" alt="Book Table" width="575" height="575" />
+          <img className="main-block-img" src="https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/book.png" alt="Book Table" width="575" height="575" />
         </div>
       </div>
     </div>

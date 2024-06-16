@@ -7,11 +7,11 @@ const MainEvents = () => {
         <div className="top-events clearfix">
           <div className="mini-logo">private events</div>
           <div className="main-block-border-element-left">
-            <img className="main-block-img" src="src/assets/img/main/wedding.png" alt="Wedding" width="575" height="575" />
+            <img className="main-block-img" src="https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/wedding.png" alt="Wedding" width="575" height="575" />
             <div className="main-block-img-text">weddings</div>
           </div>
           <div className="main-block-border-element-right">
-            <img className="main-block-img" src="src/assets/img/main/parties.png" alt="Parties" width="575" height="575" />
+            <img className="main-block-img" src="https://aushniidrgdnhohvezpw.supabase.co/storage/v1/object/public/images/parties.png" alt="Parties" width="575" height="575" />
             <div className="main-block-img-text">corporate parties</div>
           </div>
         </div>
