@@ -1,0 +1,22 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-right: 22px;
+    margin-left: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e8c300;
+    border: none;
+}
